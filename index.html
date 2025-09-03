@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Pages Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Web Pages with JavaScript</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Event Handling Demo</h2>
+    <button id="clickBtn">Click</button>
+    <p id="clickMessage"></p>
+
+    <p id="hoverText">Hover over me</p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Interactive Elements</h2>
+
+    <!-- Light/Dark Mode -->
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+
+    <!-- Counter -->
+    <div>
+      <p>Counter: <span id="counter">0</span></p>
+      <button id="increment">➕</button>
+      <button id="decrement">➖</button>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Form Validation</h2>
+    <form id="signupForm">
+      <label>
+        Name: <input type="text" id="name">
+        <span class="error" id="nameError"></span>
+      </label><br><br>
+      <label>
+        Email: <input type="text" id="email">
+        <span class="error" id="emailError"></span>
+      </label><br><br>
+      <label>
+        Password: <input type="password" id="password">
+        <span class="error" id="passwordError"></span>
+      </label><br><br>
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
